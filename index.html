@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TemuIN - Platform Barang Hilang</title>
+    <meta name="description" content="TemuIN menghubungkan pemilik dan penemu barang dalam satu platform digital.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Using FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">TemuIN</a>
+            <div class="nav-links">
+                <a href="#about">Tentang</a>
+                <a href="#highlight">Highlight Barang</a>
+                <a href="#faq">FAQ & Syarat</a>
+            </div>
+            <div class="nav-buttons">
+                <button class="btn btn-outline login-btn">Masuk</button>
+                <button class="btn btn-primary register-btn">Daftar</button>
+            </div>
+            <div class="mobile-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-header">
+            <span class="logo">TemuIN</span>
+            <button class="close-menu"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="mobile-links">
+            <a href="#about">Tentang</a>
+            <a href="#highlight">Highlight Barang</a>
+            <a href="#faq">FAQ & Syarat</a>
+        </div>
+        <div class="mobile-buttons">
+            <button class="btn btn-outline login-btn" style="width: 100%; margin-bottom: 10px;">Masuk</button>
+            <button class="btn btn-primary register-btn" style="width: 100%;">Daftar</button>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-background">
+            <!-- Floating Icons Decoration -->
+            <div class="float-icon icon-1"><i class="fa-solid fa-bell"></i></div>
+            <div class="float-icon icon-2"><i class="fa-solid fa-bullhorn"></i></div>
+            <div class="float-icon icon-3"><i class="fa-solid fa-hashtag"></i></div>
+            <div class="float-icon icon-4"><i class="fa-solid fa-handshake"></i></div>
+            <div class="float-icon icon-5"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="float-icon icon-6"><i class="fa-solid fa-magnifying-glass"></i></div>
+        </div>
+
+        <div class="container hero-content">
+            <h1>Platform Digital Membantu <br> Sebarkan Informasi Barang Hilang</h1>
+            <p>TemuIN menghubungkan penemu dan pemilik barang melalui satu platform <br> digital untuk pencarian yang
+                cepat, aman, dan transparan.</p>
+            <button class="btn btn-lg btn-gradient cta-hero">
+                <i class="fa-solid fa-magnifying-glass-location"></i> Mulai Temukan Barang!
+            </button>
+        </div>
+    </header>
+
+    <!-- About / Service Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Bagaimana Cara Kerjanya?</h2>
+                <p>Kami menyederhanakan proses penemuan barang anda</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon-box"><i class="fa-solid fa-camera"></i></div>
+                    <h3>Bikin Laporan</h3>
+                    <p>Laporkan barang hilang atau ditemukan dengan detail foto dan lokasi.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box"><i class="fa-solid fa-bolt"></i></div>
+                    <h3>Highlight</h3>
+                    <p>Gunakan fitur highlight agar barangmu muncul di halaman utama.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box"><i class="fa-solid fa-hand-holding-heart"></i></div>
+                    <h3>Kembalikan</h3>
+                    <p>Hubungkan dengan pemilik asli dan kembalikan barang dengan aman.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Highlighted Items Section -->
+    <section id="highlight" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge">Fitur Premium</div>
+                <h2>Highlight Barang Hilang</h2>
+                <p>Barang-barang yang sedang dicari secara intensif oleh pemiliknya.</p>
+            </div>
+
+            <div class="items-grid">
+                <!-- Item 1 -->
+                <div class="item-card">
+                    <div class="item-image"
+                        style="background-color: #ddd; display: flex; align-items: center; justify-content: center; height: 200px;">
+                        <i class="fa-solid fa-wallet fa-3x" style="color: #aaa;"></i>
+                    </div>
+                    <div class="item-details">
+                        <span class="category tag">Hilang</span>
+                        <h3>Dompet Kulit Coklat</h3>
+                        <p class="location"><i class="fa-solid fa-location-dot"></i> Stasiun Gambir, Jakarta</p>
+                        <p class="reward">Imbalan: <strong>Rp 500.000</strong></p>
+                        <button class="btn btn-sm btn-primary contact-btn">Hubungi Pemilik</button>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="item-card">
+                    <div class="item-image"
+                        style="background-color: #ddd; display: flex; align-items: center; justify-content: center; height: 200px;">
+                        <i class="fa-solid fa-cat fa-3x" style="color: #aaa;"></i>
+                    </div>
+                    <div class="item-details">
+                        <span class="category tag">Hilang</span>
+                        <h3>Kucing Persia Putih</h3>
+                        <p class="location"><i class="fa-solid fa-location-dot"></i> Tebet, Jakarta Selatan</p>
+                        <p class="reward">Imbalan: <strong>Rp 1.000.000</strong></p>
+                        <button class="btn btn-sm btn-primary contact-btn">Hubungi Pemilik</button>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="item-card">
+                    <div class="item-image"
+                        style="background-color: #ddd; display: flex; align-items: center; justify-content: center; height: 200px;">
+                        <i class="fa-solid fa-laptop fa-3x" style="color: #aaa;"></i>
+                    </div>
+                    <div class="item-details">
+                        <span class="category tag-found">Ditemukan</span>
+                        <h3>Macbook Pro 13"</h3>
+                        <p class="location"><i class="fa-solid fa-location-dot"></i> Cafe Kopi Kenangan</p>
+                        <p class="reward">Status: Diamankan</p>
+                        <button class="btn btn-sm btn-primary contact-btn">Klaim Barang</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="promote-highlight">
+                <div class="promote-box">
+                    <div>
+                        <h3>Ingin barangmu cepat ketemu?</h3>
+                        <p>Gunakan fitur Highlight mulai dari Rp 15.000/hari</p>
+                    </div>
+                    <button class="btn btn-white cta-highlight">Highlight Sekarang</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ & Terms Section -->
+    <section id="faq" class="section">
+        <div class="container faqs-container">
+            <div class="section-header">
+                <h2>FAQ & Ketentuan</h2>
+            </div>
+
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <span>Apakah layanan ini gratis?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="accordion-body">
+                        <p>Dasar penggunaan TemuIN adalah gratis. Namun, kami menyediakan fitur berbayar seperti
+                            "Highlight" untuk meningkatkan visibilitas barang yang hilang.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <span>Bagaimana kebijakan pengembalian dana?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="accordion-body">
+                        <p>Dana untuk fitur Highlight dapat dikembalikan jika terjadi kesalahan sistem yang menyebabkan
+                            iklan tidak tayang. Hubungi CS kami untuk proses lebih lanjut.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <span>Apakah aman bertransaksi di sini?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="accordion-body">
+                        <p>Kami memverifikasi identitas pengguna untuk meningkatkan keamanan. Selalu berhati-hati dan
+                            lakukan pertemuan di tempat umum yang aman atau kantor polisi terdekat saat serah terima
+                            barang.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h2>TemuIN</h2>
+                <p>Platform terpercaya untuk menemukan kembali barang berhargamu.</p>
+                <div class="socials">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>Perusahaan</h3>
+                <ul>
+                    <li><a href="#">Tentang Kami</a></li>
+                    <li><a href="#">Karir</a></li>
+                    <li><a href="#">Berita</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Hubungi Kami</h3>
+                <p><i class="fa-solid fa-envelope"></i> dayundraofficial@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +62 895-3257-09058</p>
+                <p><i class="fa-solid fa-map-pin"></i> Surabaya, Jawa Timur, Indonesia</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 TemuIN. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Development Modal -->
+    <div class="modal-overlay" id="devModal">
+        <div class="modal">
+            <div class="modal-icon">
+                <i class="fa-solid fa-rocket"></i>
+            </div>
+            <h2>Segera Hadir!</h2>
+            <p>Website TemuIN masih dalam tahap pengembangan aktif. Kami akan meluncurkan versi penuh pada <strong>Awal
+                    Tahun 2026</strong>. Nantikan fitur lengkapnya!</p>
+            <button class="btn btn-primary close-modal">Saya Mengerti</button>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
